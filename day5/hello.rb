@@ -1,8 +1,9 @@
-n=[10,5,2,1,6]
-min=n[0]
-5.times do |i|
-    if n[i]<min
+n = [10,12,2,1,5]
+min = n[0]
+nlength = n.length
+for i in 1..nlength-1
+    if n[i] < min
         min = n[i]
     end
-    return n[i]
 end
+puts min
