@@ -1,5 +1,5 @@
-i=1
-while i<=5
-    puts i
-    i+=1
+n=[10,1,21,3,4]
+5.times do |i|
+
+    puts n[i]
 end
